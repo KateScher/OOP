@@ -46,8 +46,6 @@ class Triangle extends ToShape {
 
   public Triangle(double height, double width, String style) {
     super(width, height);
-    // setHeight(height);
-    // setWidth(width);
     this.style = style;
   }
 

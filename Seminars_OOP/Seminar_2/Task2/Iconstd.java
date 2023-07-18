@@ -1,4 +1,4 @@
-package Seminar_2.Task2;
+package Task2;
 
 public class Iconstd implements IConst {
 

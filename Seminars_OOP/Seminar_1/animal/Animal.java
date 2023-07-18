@@ -18,12 +18,12 @@ class Cat extends Animal {
   }
 }
 
-public class PolymorphismExample {
-  public static void main(String[] args) {
-    Animal animal1 = new Dog();
-    Animal animal2 = new Cat();
-
-    animal1.makeSound(); // Вывод: "The dog barks"
-    animal2.makeSound(); // Вывод: "The cat meows"
-  }
-}
+//public class PolymorphismExample {
+//  public static void main(String[] args) {
+//    Animal animal1 = new Dog();
+//    Animal animal2 = new Cat();
+//
+//    animal1.makeSound(); // Вывод: "The dog barks"
+//    animal2.makeSound(); // Вывод: "The cat meows"
+//  }
+//}

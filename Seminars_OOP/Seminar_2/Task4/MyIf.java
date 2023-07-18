@@ -1,4 +1,4 @@
-package Seminar_2.Task4;
+package Task4;
 
 public interface MyIf {
 

@@ -1,4 +1,4 @@
-package Seminar_2.Task3;
+package Task3;
 
 public interface B extends A {
 

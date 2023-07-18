@@ -1,4 +1,4 @@
-package Seminar_2.Task5;
+package Task5;
 
 public interface EngineInterface {
   void start();
