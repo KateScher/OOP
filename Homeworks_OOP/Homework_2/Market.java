@@ -45,4 +45,5 @@ public class Market implements MarketBehavior, QueueBehavior {
     System.out.println(actorsQueue.peek().getName() + " покинул очередь");
     actorsQueue.poll();
   }
+
 }
