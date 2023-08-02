@@ -14,7 +14,7 @@ public class CalculatorView {
   }
 
   public String getOperation() {
-    System.out.println("Введите опeрацию:(+,-,*,/)");
+    System.out.println("Введите опeрацию:(+, -, /, *)");
     return scanner.nextLine();
   }
 
