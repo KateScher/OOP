@@ -3,24 +3,23 @@ package Homeworks_OOP.Homework_5;
 import java.util.Scanner;
 
 public class CalculatorView {
-
   private Scanner scanner;
 
   public CalculatorView() {
     scanner = new Scanner(System.in);
   }
 
-  public void displayResult(double result) {
+  public void displayResult(int result) {
     System.out.println("Результат: " + result);
   }
 
   public String getOperation() {
-    System.out.println("Введите операцию:(+,-,*,/) ");
+    System.out.println("Введите опeрацию:(+, -, /, *)");
     return scanner.nextLine();
   }
 
-  public double getOperand() {
+  public int getOperand() {
     System.out.println("Введите число: ");
-    return Double.parseDouble(scanner.nextLine());
+    return Integer.parseInt(scanner.nextLine());// Получаем строку и преобразуем в целое число.
   }
 }

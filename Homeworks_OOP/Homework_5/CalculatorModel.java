@@ -1,30 +1,38 @@
 package Homeworks_OOP.Homework_5;
 
-public class CalculatorModel {// Создаем переменную для результата
-  private int result;
+public class CalculatorModel {
 
-  public void add(int num1, int num2) {
+  private double result;
+
+  public void add(double num1, double num2) {
     result = num1 + num2;
   }
 
-  public void subtract(int num1, int num2) {
+  public void subtract(double num1, double num2) {
     result = num1 - num2;
   }
 
-  public void divide(int num1, int num2) {
-    if (num2 != 0) {
-      result = num1 / num2;
-    } else {
-      // Обработка деления на ноль
-      throw new IllegalArgumentException("На ноль делить нельзя!");
+  public void divide(double num1, double num2) {
+    try {
+      if (num2 != 0) {
+        result = num1 / num2;
+      } else {
+        // Обработка деления на ноль
+        throw new Exception("На ноль делить нельзя!");
+      }
+
+    } catch (Exception exception) {
+      System.out.println(exception.getMessage());
+      result = 0;
     }
   }
 
-  public void multiply(int num1, int num2) {
+  public void multiply(double num1, double num2) {
     result = num1 * num2;
   }
 
-  public int getResult() {
+  public double getResult() {
     return result;
   }
+
 }
