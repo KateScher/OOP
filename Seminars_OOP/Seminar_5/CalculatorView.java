@@ -1,4 +1,4 @@
-package Homeworks_OOP.Homework_5;
+package Seminars_OOP.Seminar_5;
 
 import java.util.Scanner;
 

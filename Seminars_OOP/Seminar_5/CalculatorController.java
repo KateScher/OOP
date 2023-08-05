@@ -1,4 +1,4 @@
-package Homeworks_OOP.Homework_5;
+package Seminars_OOP.Seminar_5;
 
 public class CalculatorController {
   private CalculatorView view;

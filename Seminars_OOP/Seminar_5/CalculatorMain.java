@@ -1,4 +1,4 @@
-package Homeworks_OOP.Homework_5;
+package Seminars_OOP.Seminar_5;
 
 public class CalculatorMain {
     public static void main(String[] args) {
