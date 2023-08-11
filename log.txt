@@ -1,0 +1,10 @@
+авг. 11, 2023 4:15:05 PM Homeworks_OOP.Homework_8.MyLogger info
+INFO: Первое число 23.0
+авг. 11, 2023 4:15:06 PM Homeworks_OOP.Homework_8.MyLogger info
+INFO: Второе число 25.0
+авг. 11, 2023 4:15:08 PM Homeworks_OOP.Homework_8.MyLogger info
+INFO: Операция +
+авг. 11, 2023 4:15:08 PM Homeworks_OOP.Homework_8.MyLogger info
+INFO: Результат операции 48.0
+авг. 11, 2023 4:15:08 PM Homeworks_OOP.Homework_8.MyLogger info
+INFO: ---------------------------------------------
